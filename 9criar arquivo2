@@ -1,0 +1,9 @@
+São_Paulo = ["Pablo Vitar", "Eric Felipe", "Cassio Goleiro", "Thais Carla"]
+
+f = open("Time São Paulo", "a+")
+
+for time in São_Paulo:
+    f.write(time)
+    f.write("\n")
+
+f.close()
